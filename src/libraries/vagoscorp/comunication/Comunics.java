@@ -74,18 +74,18 @@ public class Comunics extends AsyncTask<Void, byte[], Integer> {
 	/** The context. */
 	Context context;
 	
-	/** El Tipo de conexión Actual:
-	 *  NULL, CLIENT ó SERVER. */
+	/** El Tipo de conexion Actual:
+	 *  NULL, CLIENT o SERVER. */
 	public int tcon = NULL;
 	
 	/** The conectado. */
 	boolean conectado = false;
 	
-	/** El Estado de la Conexión Actual:
-	 * NULL, WAITING ó CONNECTED. */
+	/** El Estado de la Conexion Actual:
+	 * NULL, WAITING o CONNECTED. */
 	public int estado = NULL;
 
-	// ///////////////Código para Listeners/////////////////
+	// ///////////////Codigo para Listeners/////////////////
 	/** The on conn listener. */
 	OnConnectionListener onConnListener;
 	
@@ -186,7 +186,7 @@ public class Comunics extends AsyncTask<Void, byte[], Integer> {
 		onCOMListener = comListener;
 	}
 
-	// ///////////////Código para Listeners/////////////////
+	// ///////////////Codigo para Listeners/////////////////
 
 	/**
 	 * Make toast.
