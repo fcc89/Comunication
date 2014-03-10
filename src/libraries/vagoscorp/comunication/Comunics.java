@@ -16,11 +16,11 @@ import android.util.Log;
 import android.widget.Toast;
 
 /**
- * The Class Comunic: Recurso de Comunicación para Android basado en Sockets
+ * The Class Comunic: Recurso de Comunicacion para Android basado en Sockets
  */
 public class Comunics extends AsyncTask<Void, byte[], Integer> {
 
-	/** Constante de Estado o Tipo de Conexión: Nulo. */
+	/** Constante de Estado o Tipo de Conexion: Nulo. */
 	public final int NULL = 0;// estado
 	
 	/** Constante de Estado: En Espera. */
@@ -29,10 +29,10 @@ public class Comunics extends AsyncTask<Void, byte[], Integer> {
 	/** Constante de Estado: Conectado. */
 	public final int CONNECTED = 2;// estado
 
-	/** Constante de Tipo de Conexión: Cliente. */
+	/** Constante de Tipo de Conexion: Cliente. */
 	public final int CLIENT = 1;// tcon
 	
-	/** Constante de Tipo de Conexión: Servidor. */
+	/** Constante de Tipo de Conexion: Servidor. */
 	public final int SERVER = 2;// tcon
 
 	/** The en espera. */
