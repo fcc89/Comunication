@@ -9,7 +9,7 @@ import java.net.Socket;
 
 import libraries.vagoscorp.comunication.Eventos.OnComunicationListener;
 import libraries.vagoscorp.comunication.Eventos.OnConnectionListener;
-
+import libraries.vagoscorp.comunication.Eventos.OnDisConnectionListener;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
